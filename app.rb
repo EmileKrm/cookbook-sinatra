@@ -8,7 +8,7 @@ configure :development do
 end
 
 get '/' do
-  erb :index
+  'Hello world'
 end
 
 get '/about' do
